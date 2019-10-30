@@ -1,4 +1,3 @@
-// src/js/store/index.js
 import { createStore, applyMiddleware, compose } from "redux";
 import rootReducer from "../reducers/index";
 import { forbiddenWordsMiddleware } from "../middleware";
